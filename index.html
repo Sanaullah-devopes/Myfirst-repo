@@ -4,8 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            color: white;
+        }
+        #navbar{
+            background-color: black;
+            height: 60px;
+        }
+        button{
+            background-color: orange;
+            margin-left: 0px;
+        }
+        #logo{
+            font-size: 25px;
+            color: orange;
+            margin-right: 200px;
+        }
+        a{
+            margin-right: 200px;
+            text-decoration: none;
+        }
+        .boxes{
+            width: 100px;
+            height: 100px;
+            border-style: dashed;
+            margin: 25px;
+            display: inline-block;
+            text-align: center;
+            padding-top: 50px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+        }
+        #contact {
+            height: 560px;
+        }
+
+
+    </style>
 </head>
 <body>
+    <header>
+        <div id="navbar">
+                    <a id="logo">amazon.in</a>
+                    <a href="#">Acounnt</a>
+                   <a href="#">mycart</a>
+                   <a href="#">contactus</a>
+                   <input type="text" placeholder="search amazon.in">
+                 <button>search</button>
+
+        </div>
+    </header>
+
+    <div id="contact">
+        <div class="boxes" style="background-color: rgba(255, 0, 0, 0.5);">red</div>
+        <div class="boxes" style="background-color: rgba(0, 0, 255, 0.5);">blue</div>
+        <div class="boxes" style="background-color: rgba(0, 255, 0, 0.5);">green</div>
+    </div>
+
+
+    <footer>
+        contact us
+        about
+    </footer>
+    <script>
+    console.log("Hello from browser! by using console.log we can print anything in the console of the browser");
+  </script>
     
 </body>
 </html>
