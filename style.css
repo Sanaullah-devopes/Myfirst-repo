@@ -1,0 +1,51 @@
+*{
+            padding: 0px;
+            margin: 0px;
+            color: white;
+         }
+        #navbar{
+            background-color: black;
+            height: 60px;
+        }
+        button{
+            background-color: orange;
+            margin-left: 0px;
+        }
+        #logo{
+            font-size: 25px;
+            color: orange;
+            margin-right: 200px;
+        }
+        a{
+            margin-right: 200px;
+            text-decoration: none;
+        }
+        .boxes{
+            width: 100px;
+            height: 100px;
+            border-style: dashed;
+            margin: 25px;
+            display: inline-block;
+            text-align: center;
+            padding-top: 50px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+        }
+        #contact {
+            height: 560px;
+        }
+
+@media (width: 600px) {
+    div{
+        background-color: brown;
+    }
+    
+}
+@media (min-width :500px) and (max-width :600px){
+    div {
+        background-color: black;
+    }
+}
+   
