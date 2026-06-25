@@ -1,0 +1,14 @@
+div {
+    height: 50px;
+    width : 50px;
+    margin-top: 400px;
+    margin-left: 400px;
+    border: 10px solid black;
+    border-top-color: #8CBA80;
+    border-radius: 50%;
+    animation: circle 1s ease-in 0s infinite normal;
+}
+@keyframes circle {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
